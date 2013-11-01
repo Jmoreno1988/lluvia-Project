@@ -12,10 +12,10 @@ function main(){
                            acceleration: new Vector(0, 0) } )
   
   var first = t                           
-  for(var i=0; i<10; i++)
-    t = w.new_seeker(t)
-  first.brain.activate('seek')
-  first.brain.get_behavior('seek').set_target(t)
+  //for(var i=0; i<10; i++)
+    t = w.new_flee(t)
+  first.brain.activate('flee')
+  first.brain.get_behavior('flee').set_target(t)
   
 
   w.start()

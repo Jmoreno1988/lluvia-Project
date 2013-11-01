@@ -220,6 +220,13 @@ World.prototype.new_seeker = function(target, color){
   return b
 }
 
+World.prototype.new_flee = function(target, color){
+  var b = this.new_boid(color)
+  b.brain.activate('flee')
+  b.brain.get_behavior('flee').set_target(target)
+  return b
+}
+
 World.prototype.start_and_run = function(){
   this.start()
   this.run()
