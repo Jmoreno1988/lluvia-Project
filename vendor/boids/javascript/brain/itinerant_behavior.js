@@ -118,15 +118,59 @@ FleeBehavior.prototype.desired_acceleration = function(){
  * @constructor
 */
 
-
 WanderBehavior.prototype = new Behavior
 WanderBehavior.prototype.constructor = WanderBehavior
 WanderBehavior.prototype.super = Behavior
 
 function WanderBehavior(){
   Behavior.apply(this, arguments)
+  this.target = null
+  this.timer = 0
 }
 
+WanderBehavior.prototype.set_target = function(boid){
+  this.target = boid || new Boid({
+                          position:      new Vector(Math.floor(Math.random()*400),Math.floor(Math.random()*400)),
+                          velocity:      new Vector(0,0),
+                          acceleration:  new Vector(0,0)
+      }, "red")
+}
+
+WanderBehavior.prototype.target_data = function(){
+  if (!this.target)
+    throw "WanderBehavior Disabled. Still no target."
+  else if(this.timer % 300 == 0){
+    this.set_target()
+    this.timer = 0
+  }
+  this.timer++
+
+  return this.target ? this.target.geo_data : null
+}
+
+WanderBehavior.prototype.get_target = function(){
+  return this.target_data()
+}
+
+WanderBehavior.prototype.target_at = function(){
+  return this.get_target().position.subs( this.me.geo_data.position )
+}
+
+WanderBehavior.prototype.desired_velocity = function(){
+  var arrival_distance
+  try{ 
+    arrival_distance = this.target_at().module()
+  }catch(err){
+    arrival_distance = 0
+  }
+  var scale = 1
+  
+  return (new Vector(this.target_at().unit().scale(scale * this.me.vel_max)))
+}
+
+WanderBehavior.prototype.desired_acceleration = function(){
+  return this.desired_velocity().subs(this.me.velocity())
+}
 
 /**
  * @classDescription Creates Itinerant Behavior: wall following
@@ -134,7 +178,6 @@ function WanderBehavior(){
  * @return {WallFollowingBehavior}
  * @constructor
 */
-
 
 WallFollowingBehavior.prototype = new Behavior
 WallFollowingBehavior.prototype.constructor = WallFollowingBehavior

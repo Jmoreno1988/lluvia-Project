@@ -227,6 +227,13 @@ World.prototype.new_flee = function(target, color){
   return b
 }
 
+World.prototype.new_wander = function(color){
+  var b = this.new_boid(color)
+  b.brain.activate('wander')
+  b.brain.get_behavior('wander').set_target()
+  return b
+}
+
 World.prototype.start_and_run = function(){
   this.start()
   this.run()
