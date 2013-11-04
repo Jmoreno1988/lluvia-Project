@@ -125,7 +125,8 @@ WanderBehavior.prototype.super = Behavior
 function WanderBehavior(){
   Behavior.apply(this, arguments)
   this.target = null
-  this.timer = 0
+  this.timer = (Math.random()* (300 - 200 +1)) + 200 
+  this.aux = 0
 }
 
 WanderBehavior.prototype.set_target = function(boid){
@@ -137,13 +138,14 @@ WanderBehavior.prototype.set_target = function(boid){
 }
 
 WanderBehavior.prototype.target_data = function(){
+  //timer = (Math.random()* 300) + 200
   if (!this.target)
     throw "WanderBehavior Disabled. Still no target."
-  else if(this.timer % 300 == 0){
+  else if(this.aux >= this.timer){
     this.set_target()
-    this.timer = 0
+    this.aux = 0
   }
-  this.timer++
+  this.aux++
 
   return this.target ? this.target.geo_data : null
 }

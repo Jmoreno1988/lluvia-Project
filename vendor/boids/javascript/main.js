@@ -7,10 +7,9 @@ function main(){
   var boid_editor = new BoidEditor("boid_properties")
   boid_list.addPort("focus_boid", boid_editor)
 
-  for(var i = 0; i<3; i++){
+  for(var i = 0; i<10; i++){
     var b = w.new_wander()
   }
 
   w.start()
-  
 }
