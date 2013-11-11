@@ -159,7 +159,7 @@ Boid.prototype.draw = function(ctx){
 
 
   /* Speed */
-  /*
+  
   ctx.strokeStyle = "black"  
   ctx.beginPath();
   ctx.moveTo(p.get_coord(0), p.get_coord(1))
@@ -168,7 +168,7 @@ Boid.prototype.draw = function(ctx){
   ctx.stroke()
   
   /* Acceleration */
-  /*
+  
   ctx.strokeStyle = "red"  
   ctx.beginPath();
   ctx.moveTo(p.get_coord(0), p.get_coord(1))

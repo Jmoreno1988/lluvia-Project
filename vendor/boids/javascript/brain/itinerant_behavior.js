@@ -125,29 +125,29 @@ WanderBehavior.prototype.super = Behavior
 function WanderBehavior(){
   Behavior.apply(this, arguments)
   this.target = null
-  this.timer = (Math.random()* (300 - 200 +1)) + 200 
-  this.aux = 0
+  this.radius = 5
+  this.angle = 0//Math.floor(Math.random() * (360 - 0 + 1)) + 0;//Math.random()
+  this.limit = 100
+  this.timer = 0
 }
 
 WanderBehavior.prototype.set_target = function(boid){
-  this.target = boid || new Boid({
-                          position:      new Vector(Math.floor(Math.random()*400),Math.floor(Math.random()*400)),
-                          velocity:      new Vector(0,0),
-                          acceleration:  new Vector(0,0)
-      }, "red")
+  var vector1 = new Vector(this.me.last_heading.unit().get_coord(0)*this.radius, this.me.last_heading.unit().get_coord(1)*this.radius)
+  var vector2 = new Vector(this.radius, this.angle, "pol")
+  this.target = vector1.add(vector2)
+  this.angle += (Math.random() * (Math.PI*2))
 }
 
 WanderBehavior.prototype.target_data = function(){
-  //timer = (Math.random()* 300) + 200
   if (!this.target)
     throw "WanderBehavior Disabled. Still no target."
-  else if(this.aux >= this.timer){
+  else if(this.timer >= this.limit){
     this.set_target()
-    this.aux = 0
+    this.timer = 0
   }
-  this.aux++
+  this.timer++
 
-  return this.target ? this.target.geo_data : null
+  return this.target ? this.target : null
 }
 
 WanderBehavior.prototype.get_target = function(){
@@ -155,7 +155,7 @@ WanderBehavior.prototype.get_target = function(){
 }
 
 WanderBehavior.prototype.target_at = function(){
-  return this.get_target().position.subs( this.me.geo_data.position )
+  return this.get_target()//.subs( this.me.geo_data.position )
 }
 
 WanderBehavior.prototype.desired_velocity = function(){
