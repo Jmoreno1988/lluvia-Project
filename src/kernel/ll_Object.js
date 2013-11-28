@@ -244,7 +244,7 @@ Object.prototype.instance_of$U = function (clss){
 }
 
 /**
- * @method_missing
+ * @method method_missing
  *
  * Automatically called whenever a non existing method is called
  * in an object. Provides boilerplate getter and setters.
@@ -298,6 +298,8 @@ Object.prototype.method_missing = function (method, obj, params){
   //todo: Provide camel case getter and setters
   bad_function()
 }
+
+
 
 /* Borrowed from Hash */
 // todo: Make it dynamic

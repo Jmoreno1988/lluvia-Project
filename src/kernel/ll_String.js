@@ -1343,7 +1343,7 @@ return op1/mcd + "/" + op2/mcd
 
 /**  
  * @member *****
- * @methof  decimal
+ * @method  decimal
  * 
  * Esta funcion devuelve la cantidad de decimales que tiene un numero
  * 

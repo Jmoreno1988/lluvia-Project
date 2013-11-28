@@ -1,13 +1,12 @@
 /**
  * Multiprocess components / state machines
  * @author Txema
- * @version 1.00, june 2007
  */
 
 Processor.prototype.constructor = Processor;
 
 /** 
- * @classDescription 	create a Processor to run threads.
+ * @class           	create a Processor to run threads.
  * @return 				{Processor}	retuns a new processor.
  * @constructor 
  */
@@ -24,7 +23,7 @@ function Processor(){
 
 /**
  * Add a thread in the execution queue
- * @memberOf 	{Processor}
+ * @member 	{Processor}
  * @method 		register
  * @param 		{Thread}    cObject 		Is the caller object to be porocessed through the thread interface.
  * @param 		{Function}  solicitorF		Control loop object. Typically "run".
@@ -50,7 +49,7 @@ Processor.prototype.register = function(cObject, solicitorF){
 /**
  * Removes a thread out of the execution queue.
  *
- * @memberOf 	{Processor}
+ * @member 	{Processor}
  * @method 		 kill
  * @param 		{Thread} 		rObject 	Object to be removed from the execution queue.
  * @param 		{Function}  	solicitorF  As far as an object can be processed by several parallel solicitors function, one can be removed. (This is a fairly overenthusiastic feature indeed)
@@ -64,7 +63,7 @@ Processor.prototype.kill = function(rObject, solicitorF){
 /**
  * Execute all threads one step.
  * 
- * @memberOf 	{Processor}
+ * @member 	{Processor}
  * @method 		run
  */
 Processor.prototype.step = function (date){
@@ -82,7 +81,7 @@ Processor.prototype.step = function (date){
 /**
  * Execute all threads.
  * 
- * @memberOf 	{Processor}
+ * @member 	{Processor}
  * @method 		run
  */ 
 Processor.prototype.run = function (date){
@@ -116,7 +115,7 @@ $Processor = new Processor().start()
 Thread.prototype.constructor = Thread;
 
 /**
- * @classDescription abstract class (future interface/module) to instantiate executions threads.
+ * @class abstract class (future interface/module) to instantiate executions threads.
  *
  * @param  {Function} 	    solicitor Function attending processor calls.
  * @return {Thread} 		New execution thread
@@ -137,7 +136,7 @@ function Thread(solicitor, processor){
 /**
  * Thread execution step. Is an abstract method.
  * 
- * @memberOf  {Thread}
+ * @member  {Thread}
  * @method    run	State machine manager.
  */
 Thread.prototype.run = function(processors_time){
@@ -148,7 +147,7 @@ Thread.prototype.run = function(processors_time){
 Automata.prototype.constructor = Automata;
 
 /**
- * @classDescription creates a state machine. A lluvia state machine has a continous and derivable state,
+ * @class creates a state machine. A lluvia state machine has a continous and derivable state,
  * made of the previous, the current and the requested one. During state transition, several solicitor functions
  * get executed: down function of the current state, up solicitor of the requested state and finally we arrive to the
  * steady state.
@@ -175,7 +174,7 @@ function Automata(states, initialState, solicitor){
  * Behavior of the automata according to its internal state.
  * This function takes care of state transitions.
  * 
- * @memberOf {Automata}
+ * @member {Automata}
  * @method	  run
  */
 
@@ -195,7 +194,7 @@ extend(ThreadAutomata, Automata);
 ThreadAutomata.prototype.constructor = ThreadAutomata;
 
 /**
- * @classDescription Creates an automata for atomic processing.
+ * @class Creates an automata for atomic processing.
  * 
  * @param {Object} state			Available automata states.
  * @param {Object} currentState	    Initial automata state.
@@ -217,7 +216,7 @@ function ThreadAutomata(state, currentState, solicitor, processor){
  * The main difference between ThreadAutomata#run and Automata#run lies on
  * the type of the solicitor functions, designed to make atomic operations.
  * 
- * @memberOf {ThreadAutomata}
+ * @member {ThreadAutomata}
  * @method	  run
  * 
  */
