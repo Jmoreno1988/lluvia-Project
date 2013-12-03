@@ -1,0 +1,47 @@
+header[role=banner]{
+  text-align: center;
+  background-color: white;
+}
+
+header figure{
+  background-color: white;
+}
+
+a {
+  color: grey;
+}
+
+
+a:hover {
+  color: #CCC;
+}
+
+
+/*
+nav {float: none; width: 100%;}
+
+footer {
+   margin-top: 6ex;
+}
+nav{
+  border: 1px solid #2779B9;
+  border-style: solid none none none;
+  width: 70%;
+  margin: 0 auto 0 auto;
+}
+
+footer nav ol{
+  text-align: center;
+}
+
+footer nav li{
+  display: inline;
+  margin-left: 4ex;
+  margin-right: 4ex;
+}
+
+image{
+  margin-top: 15ex;
+  margin-bottom: 5ex;
+}
+*/

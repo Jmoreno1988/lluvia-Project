@@ -1,0 +1,53 @@
+header, nav, footer, article {display: block;}
+nav {float: left; width: 20%; margin-top: 20ex;}
+article {float: right; width: 65%;}
+#page {float: right; width: 65%;}
+footer {clear:both;}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Sans, Helvetica;
+}
+
+header{
+  background-color: black;
+}
+
+header figure {
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+#page{
+  padding: 0.5cm 3cm 4cm 1.5cm;
+}
+a {
+  text-decoration: none;
+  color: black; /*#124872;*/
+}
+
+a:visited {
+  color: black; /*#124872;*/
+}
+
+a:hover {
+  color: #fff; /*#2779B9;*/
+  background-color: black;
+}
+
+nav > ul > li{
+ list-style-type: none;
+ padding-top: 0.75em;
+ padding-bottom: 0.75em;
+ margin-left: 0ex;
+ border: 1px solid black;
+ border-style: none none solid none;
+}
+
+nav > ul > li > a{
+  margin-left: 5ex;
+  padding: 3px 1ex 3px 1ex;
+}

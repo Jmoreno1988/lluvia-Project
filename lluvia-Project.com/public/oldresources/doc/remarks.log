@@ -1,0 +1,16 @@
+Este fichero describe las decisiones que se toman o proponen, así como puntos a tener en cuenta en el futuro.
+
+[Txema] - 23:00H 09/03/2009
+===========================
+
+ Los nombres de los archivos empezarán por minúsculas, excepto los de los ficheros fuente de Java.
+
+ La plantilla tiene un tamaño orientativo.
+
+ Aquellos que propongan una variación sustancial en la disposición del archivo o los contenidos deben hacerlo en una rama a parte.
+
+ Las ramas deben de mezclarse con la línea principal de desarrollo (trunk) a la mayor brevedad posible.
+
+ Propongo que se tome la resolución de 1024x768 como nuevo estándar.
+
+ Cuando aparece un directorio "util" en un proyecto, hace referencia a herramientas necesarias para la elaboración del proyecto, se diferencia de "vendor" porque en este se ponen componentes de terceros necesarios para el funcionamiento del proyecto.
