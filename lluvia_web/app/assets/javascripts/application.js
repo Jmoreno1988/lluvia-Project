@@ -16,8 +16,8 @@
 //= require_tree .
 
 
-//= require vendor/SyntaxHighlighter/Scripts/shCore
-//= require vendor/SyntaxHighlighter/Scripts/shBrushJScript
+//= require SyntaxHighlighter/Scripts/shCore
+//= require SyntaxHighlighter/Scripts/shBrushJScript
 
 //= require src/dependencies
 //= require src/lluvia

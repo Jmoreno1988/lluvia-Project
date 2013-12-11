@@ -52554,3 +52554,1506 @@ ActionController::RoutingError (No route matches [GET] "/src/loader/log_module_i
   Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.8ms)
   Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
   Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (99.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-11 17:51:49 +0100
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by MenusController#index as HTML
+  [1m[35mMenu Load (0.3ms)[0m  SELECT "menus".* FROM "menus"
+  Rendered menus/index.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 713ms (Views: 622.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/vendor/SyntaxHighlighter/Scripts/shCore.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/vendor/SyntaxHighlighter/Scripts/shBrushJScript.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/src/dependencies.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/src/lluvia.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/src/loader/log_module_load.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/src/loader/log_module_interface.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:51 +0100
+
+
+Started GET "/assets/src/utils/ll_Events.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/utils/ll_Geometry.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/utils/ll_Inheritance.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/utils/ll_Physics.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/utils/ll_Strings.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/utils/ll_Webbrowser.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Kernel.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Exception.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Object.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Enumeration.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Number.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Function.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Delegate.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_BasicObject.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Hash.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Array.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_String.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Set.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Module.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Class.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/kernel/ll_Processor.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/engine/ll_Device.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/engine/ll_EventDispatcher.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/engine/ll_Gate.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/engine/ll_Lookup.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/engine/ll_MessageEvent.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/browser/ll_HTMLElement.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/browser/ll_Logger.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/browser/ll_BrowserFeatures.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/browser/ll_CodeBlockFinder.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/browser/ll_JavascriptSource.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/Mathematics/ll_Expression.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/Mathematics/ll_func.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/Mathematics/Geometry/ll_Vector.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:52 +0100
+
+
+Started GET "/assets/src/processor/processor.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:53 +0100
+
+
+Started GET "/assets/src/Ajax/Ajax.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:53 +0100
+
+
+Started GET "/assets/classes/log_module_load.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:53 +0100
+
+
+Started GET "/assets/classes/log_module_interface.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:53 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 17:51:53 +0100
+
+
+Started GET "/assets/styles/log_load.css" for 127.0.0.1 at 2013-12-11 17:51:53 +0100
+
+
+Started GET "/assets/styles/SyntaxHighlighter.css" for 127.0.0.1 at 2013-12-11 17:51:53 +0100
+
+
+Started GET "/src/loader/log_module_load.js" for 127.0.0.1 at 2013-12-11 17:51:53 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/loader/log_module_load.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.6ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.8ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (136.9ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (345.8ms)
+
+
+Started GET "/src/dependencies.js" for 127.0.0.1 at 2013-12-11 17:51:54 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/dependencies.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (24.6ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.3ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (123.3ms)
+
+
+Started GET "/src/loader/log_module_interface.js" for 127.0.0.1 at 2013-12-11 17:51:54 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/loader/log_module_interface.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (13.9ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.4ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (114.2ms)
+
+
+Started GET "/pages" for 127.0.0.1 at 2013-12-11 17:51:55 +0100
+Processing by PagesController#index as HTML
+  [1m[36mPage Load (6.9ms)[0m  [1mSELECT "pages".* FROM "pages"[0m
+  Rendered pages/index.html.erb within layouts/application (36.1ms)
+Completed 200 OK in 192ms (Views: 180.8ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/pages/5" for 127.0.0.1 at 2013-12-11 17:52:00 +0100
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPage Load (0.5ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered pages/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 84ms (Views: 75.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/pages/images/lluviaLogo.jpg" for 127.0.0.1 at 2013-12-11 17:52:00 +0100
+
+ActionController::RoutingError (No route matches [GET] "/pages/images/lluviaLogo.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (98.0ms)
+
+
+Started GET "/pages/5" for 127.0.0.1 at 2013-12-11 17:52:12 +0100
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPage Load (0.2ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered pages/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 71ms (Views: 60.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pages/images/lluviaLogo.jpg" for 127.0.0.1 at 2013-12-11 17:52:12 +0100
+
+ActionController::RoutingError (No route matches [GET] "/pages/images/lluviaLogo.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (14.8ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (91.2ms)
+
+
+Started GET "/pages/5" for 127.0.0.1 at 2013-12-11 17:55:40 +0100
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered pages/show.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 83ms (Views: 71.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 17:55:40 +0100
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-12-11 17:55:40 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2013-12-11 17:55:40 +0100
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2013-12-11 17:55:40 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-11 17:55:40 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/vendor/SyntaxHighlighter/Scripts/shBrushJScript.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/vendor/SyntaxHighlighter/Scripts/shCore.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/dependencies.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/lluvia.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/loader/log_module_load.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/loader/log_module_interface.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/utils/ll_Events.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/utils/ll_Geometry.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/utils/ll_Inheritance.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/utils/ll_Physics.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/utils/ll_Webbrowser.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/utils/ll_Strings.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Kernel.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Exception.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Object.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Enumeration.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Number.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Function.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Delegate.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_BasicObject.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_String.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Hash.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Array.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Set.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Class.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Module.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/engine/ll_Device.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/kernel/ll_Processor.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/engine/ll_EventDispatcher.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/engine/ll_Gate.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/engine/ll_Lookup.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/engine/ll_MessageEvent.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:41 +0100
+
+
+Started GET "/assets/src/browser/ll_HTMLElement.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/src/browser/ll_BrowserFeatures.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/src/browser/ll_Logger.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/src/browser/ll_CodeBlockFinder.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/src/browser/ll_JavascriptSource.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/src/Mathematics/ll_Expression.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/src/Mathematics/ll_func.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/src/Mathematics/Geometry/ll_Vector.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/src/processor/processor.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/src/Ajax/Ajax.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/classes/log_module_interface.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/classes/log_module_load.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/styles/log_load.css" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/assets/styles/SyntaxHighlighter.css" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+
+Started GET "/pages/images/lluviaLogo.jpg" for 127.0.0.1 at 2013-12-11 17:55:42 +0100
+
+ActionController::RoutingError (No route matches [GET] "/pages/images/lluviaLogo.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (13.0ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (113.8ms)
+
+
+Started GET "/pages/images/lluviaLogo.jpg" for 127.0.0.1 at 2013-12-11 17:55:43 +0100
+
+ActionController::RoutingError (No route matches [GET] "/pages/images/lluviaLogo.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (9.3ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.4ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.4ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (135.3ms)
+
+
+Started GET "/src/loader/log_module_load.js" for 127.0.0.1 at 2013-12-11 17:55:43 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/loader/log_module_load.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (13.5ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (97.4ms)
+
+
+Started GET "/src/dependencies.js" for 127.0.0.1 at 2013-12-11 17:55:43 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/dependencies.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.3ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (10.9ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.1ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (94.9ms)
+
+
+Started GET "/src/loader/log_module_interface.js" for 127.0.0.1 at 2013-12-11 17:55:43 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/loader/log_module_interface.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.7ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.8ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (110.9ms)
+
+
+Started GET "/pages/5" for 127.0.0.1 at 2013-12-11 17:57:15 +0100
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPage Load (0.3ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered pages/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 347ms
+
+ActionView::Template::Error (couldn't find file 'SyntaxHighlighter/Scripts/shCore'
+  (in /home/jmoreno/lluvia/lluvia-Project/lluvia_web/app/assets/javascripts/application.js:19)):
+    3: <head>
+    4:   <title>LluviaWeb</title>
+    5:   <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:  
+    9: </head>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__661187871_83644760'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.5ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (65.5ms)
+
+
+Started GET "/pages/5" for 127.0.0.1 at 2013-12-11 17:57:26 +0100
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPage Load (0.4ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered pages/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 374ms (Views: 363.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/SyntaxHighlighter/Scripts/shCore.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/SyntaxHighlighter/Scripts/shBrushJScript.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/src/dependencies.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/src/lluvia.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/src/loader/log_module_load.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/src/loader/log_module_interface.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/src/utils/ll_Events.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:27 +0100
+
+
+Started GET "/assets/src/utils/ll_Geometry.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/utils/ll_Inheritance.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/utils/ll_Physics.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/utils/ll_Strings.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/utils/ll_Webbrowser.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Kernel.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Exception.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Enumeration.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Object.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Number.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Function.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Delegate.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_BasicObject.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Hash.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_String.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Array.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Set.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Module.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Class.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/kernel/ll_Processor.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/engine/ll_Device.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/engine/ll_EventDispatcher.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/engine/ll_Gate.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/engine/ll_Lookup.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/engine/ll_MessageEvent.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/browser/ll_HTMLElement.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/browser/ll_Logger.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/browser/ll_BrowserFeatures.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/browser/ll_CodeBlockFinder.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/browser/ll_JavascriptSource.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/Mathematics/ll_Expression.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/Mathematics/ll_func.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/Mathematics/Geometry/ll_Vector.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/processor/processor.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/src/Ajax/Ajax.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/classes/log_module_load.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/classes/log_module_interface.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 17:57:28 +0100
+
+
+Started GET "/assets/styles/log_load.css" for 127.0.0.1 at 2013-12-11 17:57:29 +0100
+
+
+Started GET "/assets/styles/SyntaxHighlighter.css" for 127.0.0.1 at 2013-12-11 17:57:29 +0100
+
+
+Started GET "/pages/images/lluviaLogo.jpg" for 127.0.0.1 at 2013-12-11 17:57:29 +0100
+
+ActionController::RoutingError (No route matches [GET] "/pages/images/lluviaLogo.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (11.3ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.8ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (133.9ms)
+
+
+Started GET "/pages/images/lluviaLogo.jpg" for 127.0.0.1 at 2013-12-11 17:57:29 +0100
+
+ActionController::RoutingError (No route matches [GET] "/pages/images/lluviaLogo.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.1ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (5.5ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (101.9ms)
+
+
+Started GET "/src/loader/log_module_load.js" for 127.0.0.1 at 2013-12-11 17:57:30 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/loader/log_module_load.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.4ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (6.9ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (85.7ms)
+
+
+Started GET "/src/dependencies.js" for 127.0.0.1 at 2013-12-11 17:57:30 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/dependencies.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.6ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (97.0ms)
+
+
+Started GET "/src/loader/log_module_interface.js" for 127.0.0.1 at 2013-12-11 17:57:30 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/loader/log_module_interface.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.0ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (9.6ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (95.9ms)
+
+
+Started GET "/pages/5" for 127.0.0.1 at 2013-12-11 17:58:21 +0100
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mPage Load (0.1ms)[0m  [1mSELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1[0m  [["id", "5"]]
+  Rendered pages/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 278ms
+
+ActionView::Template::Error (couldn't find file '../../../../src/kernel/ll_Kernel'
+  (in /home/jmoreno/lluvia/lluvia-Project/lluvia_web/app/assets/javascripts/application.js:38)):
+    3: <head>
+    4:   <title>LluviaWeb</title>
+    5:   <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8:  
+    9: </head>
+  app/views/layouts/application.html.erb:6:in `_app_views_layouts_application_html_erb__661187871_83644760'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (7.4ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.5ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (54.8ms)
+
+
+Started GET "/pages/5" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+Processing by PagesController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mPage Load (0.3ms)[0m  SELECT "pages".* FROM "pages" WHERE "pages"."id" = ? LIMIT 1  [["id", "5"]]
+  Rendered pages/show.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 81ms (Views: 71.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/members.css?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/menus.css?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/pages.css?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/members.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/menus.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/pages.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/SyntaxHighlighter/Scripts/shCore.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/SyntaxHighlighter/Scripts/shBrushJScript.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/src/dependencies.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/src/loader/log_module_load.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/src/lluvia.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/src/loader/log_module_interface.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/src/utils/ll_Events.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/src/utils/ll_Geometry.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:35 +0100
+
+
+Started GET "/assets/src/utils/ll_Inheritance.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/utils/ll_Physics.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/utils/ll_Strings.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/utils/ll_Webbrowser.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Kernel.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Exception.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Object.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Enumeration.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Number.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Function.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_BasicObject.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Delegate.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Hash.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_String.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Array.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Module.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Set.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Class.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/kernel/ll_Processor.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/engine/ll_Device.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/engine/ll_EventDispatcher.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/engine/ll_Gate.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/engine/ll_MessageEvent.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/engine/ll_Lookup.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/browser/ll_HTMLElement.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/browser/ll_Logger.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/browser/ll_CodeBlockFinder.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/browser/ll_BrowserFeatures.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/browser/ll_JavascriptSource.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/Mathematics/ll_Expression.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/Mathematics/Geometry/ll_Vector.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/Mathematics/ll_func.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/processor/processor.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/classes/log_module_load.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/src/Ajax/Ajax.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/classes/log_module_interface.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/styles/log_load.css" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/assets/styles/SyntaxHighlighter.css" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+
+Started GET "/pages/images/lluviaLogo.jpg" for 127.0.0.1 at 2013-12-11 17:58:36 +0100
+
+ActionController::RoutingError (No route matches [GET] "/pages/images/lluviaLogo.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.3ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.7ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (163.4ms)
+
+
+Started GET "/pages/images/lluviaLogo.jpg" for 127.0.0.1 at 2013-12-11 17:58:37 +0100
+
+ActionController::RoutingError (No route matches [GET] "/pages/images/lluviaLogo.jpg"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (4.3ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.9ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.6ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (224.0ms)
+
+
+Started GET "/src/loader/log_module_load.js" for 127.0.0.1 at 2013-12-11 17:58:38 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/loader/log_module_load.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (10.1ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (15.8ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.3ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (112.6ms)
+
+
+Started GET "/src/dependencies.js" for 127.0.0.1 at 2013-12-11 17:58:38 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/dependencies.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (6.5ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.2ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.2ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (105.0ms)
+
+
+Started GET "/src/loader/log_module_interface.js" for 127.0.0.1 at 2013-12-11 17:58:38 +0100
+
+ActionController::RoutingError (No route matches [GET] "/src/loader/log_module_interface.js"):
+  actionpack (4.0.2) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.0.2) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:25:in `tagged'
+  activesupport (4.0.2) lib/active_support/tagged_logging.rb:67:in `tagged'
+  railties (4.0.2) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.0.2) lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.0.2) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.0.2) lib/rails/engine.rb:511:in `call'
+  railties (4.0.2) lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /home/jmoreno/.rvm/rubies/ruby-1.9.3-p484/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.2ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_route.html.erb (7.0ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.7ms)
+  Rendered /home/jmoreno/.rvm/gems/ruby-1.9.3-p484/gems/actionpack-4.0.2/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (99.8ms)
