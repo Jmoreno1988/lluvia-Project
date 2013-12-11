@@ -9,4 +9,4 @@
 
 # Make sure your secret_key_base is kept private
 # if you're sharing your code publicly.
-LluviaProjectCom::Application.config.secret_key_base = '6163e09e4f76cc56c5730c518327d2e96ae4b9ad1a0b76fda5faff4e6736e2a7ec4062fc156fd2da3cc0defaa3c0474a52b1c9178e96966ae781bae0e0d51fbf'
+LluviaWeb::Application.config.secret_key_base = 'c855e7631f69c386aea1089449fed4650a0fde6793064a0c3fd249ad44ae49f372db37187390e21ec4740f04953b3f2e1d1ce049ebfc74d79871f711424412cc'

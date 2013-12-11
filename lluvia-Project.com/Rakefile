@@ -3,4 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-LluviaProjectCom::Application.load_tasks
+LluviaWeb::Application.load_tasks

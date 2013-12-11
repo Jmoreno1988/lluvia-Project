@@ -11,3 +11,6 @@
  *= require_self
  *= require_tree .
  */
+
+@import "styles/log_load.css";
+@import "styles/SyntaxHighlighter.css";

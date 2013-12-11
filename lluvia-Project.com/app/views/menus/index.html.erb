@@ -1,0 +1,34 @@
+<h1>CMS Lluvia-Project</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @menus.each do |menu| %>
+      <tr>
+        <td><%= link_to 'Show', menu %></td>
+        <td><%= link_to 'Edit', edit_menu_path(menu) %></td>
+        <td><%= link_to 'Destroy', menu, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Page', new_page_path %><br>
+<%= link_to 'Listing pages', pages_path %>
+<br><br>
+<%= link_to 'New Member', new_member_path %><br>
+<%= link_to 'Listing members', members_path %>
+<br><br>
+<%= link_to 'New User', new_user_path %><br>
+<%= link_to 'Listing users', users_path %>
+
+<!--<%= link_to 'New Menu', new_menu_path %>-->
