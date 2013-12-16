@@ -10,7 +10,7 @@ if (typeof($K_lluviaServer) == "undefined")
   $K_lluviaServer = $K_appServer
 
 if (typeof($K_lluviaPath) == "undefined")
-  $K_lluviaPath = $K_appPath + "/../../src/"
+  $K_lluviaPath = $K_appPath + "/../../assets/src/" 
     
 var $K_WHERELL  = $K_lluviaServer + $K_lluviaPath
 var $K_WHEREApp = $K_appServer + $K_appPath + $K_appRelPath
