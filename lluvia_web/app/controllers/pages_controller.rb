@@ -1,5 +1,11 @@
 class PagesController < ApplicationController
   before_action :set_page, only: [:show, :edit, :update, :destroy]
+  
+  #layout :products_layout
+  
+  def products_layout
+    @page.prueba? #? "prueba" : "application" 
+  end
 
   # GET /pages
   # GET /pages.json
@@ -10,6 +16,8 @@ class PagesController < ApplicationController
   # GET /pages/1
   # GET /pages/1.json
   def show
+    @page = Page.find(params[:id])
+    render :layout => 'prueba' if @page.tutorial?
   end
 
   # GET /pages/new
