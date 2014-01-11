@@ -17,7 +17,12 @@ class PagesController < ApplicationController
   # GET /pages/1.json
   def show
     @page = Page.find(params[:id])
-    render :layout => 'prueba' if @page.tutorial?
+    #render :layout => 'application' if @page.tutorial?
+    if @page.tutorial == true 
+      render :layout => 'application'
+    else
+      render :layout => 'prueba'
+    end
   end
 
   # GET /pages/new
