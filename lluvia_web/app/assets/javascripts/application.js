@@ -15,8 +15,7 @@
 //= require turbolinks
 //= require_tree .
 
-// Primera manera de cargar lluvia
-///////= require src/lluvia
+
 
 //= require SyntaxHighlighter/Scripts/shCore
 //= require SyntaxHighlighter/Scripts/shBrushJScript

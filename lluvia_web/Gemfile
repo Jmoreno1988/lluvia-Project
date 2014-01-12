@@ -4,6 +4,8 @@ gem 'paperclip', git: 'git://github.com/thoughtbot/paperclip.git'
 
 gem 'redcarpet'
 
+gem 'bloggy'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
