@@ -8,17 +8,16 @@
  
 </head>
 <body>
-	<div id="login"
->
-  <% if model_signed_in? %>
-  <%= current_model.email %>
-  <%= button_to "Sign out", destroy_model_session_path, :id => "off", :method => :delete %>
-  <% else %>
-  <%= button_to "Sign in", new_model_session_path, :id => "on" %>
-  <% end %>
+	<div id="login">
+    <% if model_signed_in? %>
+      <%= current_model.email %>
+      <%= button_to "Sign out", destroy_model_session_path, :id => "off", :method => :delete %>
+    <% else %>
+      <%= button_to "Sign in", new_model_session_path, :id => "on" %>
+    <% end %>
   </div>
   <div class="titulo">
-  <%= image_tag("lluviaLogo1.jpg", :height => '136', :width => '338') %>
+    <%= image_tag("lluviaLogo1.jpg", :height => '176', :width => '439') %>
 </div>
 <div id="cuerpo">
 <%= yield %>
