@@ -1,6 +1,6 @@
 class MenusController < ApplicationController
   before_action :set_menu, only: [:show, :edit, :update, :destroy]
-
+  layout 'sinLluvia'
   # GET /menus
   # GET /menus.json
   def index

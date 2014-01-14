@@ -1,6 +1,9 @@
 <h1>Listing users</h1>
+<%= button_to 'New User', new_user_path, :method => :get, :class=>"menu" %>
 
-<table>
+</br>
+
+<table class="tabla">
   <thead>
     <tr>
       <th>Image</th>
@@ -26,9 +29,9 @@
         <td><%= user.interests %></td>
         <td><%= user.developer %></td>
         <td><%= user.designer %></td>
-        <td><%= link_to 'Show', user %></td>
-        <td><%= link_to 'Edit', edit_user_path(user) %></td>
-        <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= button_to 'Show', user,:method => :get, :class=>"show" %></td>
+        <td><%= button_to 'Edit', edit_user_path(user),:method => :get, :class=>"show" %></td>
+        <td><%= button_to 'Destroy', user, :class=>"destroy", method: :delete, data: { confirm: 'Are you sure?' } %></td>
       </tr>
     <% end %>
   </tbody>
@@ -36,5 +39,4 @@
 
 <br>
 
-<%= link_to 'New User', new_user_path %>
-<%= link_to 'Menu', menus_path %>
+<%= button_to 'Menu', menus_path, :method => :get, :class=>"menu" %>

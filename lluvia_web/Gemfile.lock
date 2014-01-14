@@ -37,6 +37,7 @@ GEM
       tzinfo (~> 0.3.37)
     arel (4.0.1)
     atomic (1.1.14)
+    bcrypt-ruby (3.1.2)
     bloggy (0.2.2)
       jekyll (~> 0.12.0)
       rack-contrib
@@ -56,6 +57,12 @@ GEM
       coffee-script-source
       execjs
     coffee-script-source (1.6.3)
+    devise (3.2.2)
+      bcrypt-ruby (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 3.2.6, < 5)
+      thread_safe (~> 0.1)
+      warden (~> 1.2.3)
     directory_watcher (1.5.1)
     erubis (2.7.0)
     execjs (2.0.2)
@@ -85,6 +92,7 @@ GEM
     mime-types (1.25.1)
     minitest (4.7.5)
     multi_json (1.8.2)
+    orm_adapter (0.5.0)
     polyglot (0.3.3)
     posix-spawn (0.3.8)
     pygments.rb (0.3.7)
@@ -144,6 +152,8 @@ GEM
     uglifier (2.3.2)
       execjs (>= 0.3.0)
       json (>= 1.8.0)
+    warden (1.2.3)
+      rack (>= 1.0)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -152,6 +162,7 @@ PLATFORMS
 DEPENDENCIES
   bloggy
   coffee-rails (~> 4.0.0)
+  devise
   jbuilder (~> 1.2)
   jquery-rails
   paperclip!

@@ -1,7 +1,6 @@
 class PagesController < ApplicationController
   before_action :set_page, only: [:show, :edit, :update, :destroy]
-  
-  #layout :products_layout
+  layout 'sinLluvia'
   
   def products_layout
     @page.prueba? #? "prueba" : "application" 
@@ -9,6 +8,9 @@ class PagesController < ApplicationController
 
   # GET /pages
   # GET /pages.json
+
+    before_filter :authenticate_model!, :except => [:show, :index]  
+
   def index
     @pages = Page.all
   end
@@ -21,7 +23,7 @@ class PagesController < ApplicationController
     if @page.tutorial == true 
       render :layout => 'application'
     else
-      render :layout => 'prueba'
+      render :layout => 'sinLluvia'
     end
   end
 
@@ -44,8 +46,8 @@ class PagesController < ApplicationController
         format.html { redirect_to @page, notice: 'Page was successfully created.' }
         format.json { render action: 'show', status: :created, location: @page }
       else
-        format.html { render action: 'new' }
-        format.json { render json: @page.errors, status: :unprocessable_entity }
+          format.html { render action: 'new' }
+          format.json { render json: @page.errors, status: :unprocessable_entity}
       end
     end
   end

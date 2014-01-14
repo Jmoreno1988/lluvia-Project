@@ -1,4 +1,5 @@
 LluviaWeb::Application.routes.draw do
+  devise_for :models
   resources :users
 
   resources :menus

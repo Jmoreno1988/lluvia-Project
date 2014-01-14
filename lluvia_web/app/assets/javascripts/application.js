@@ -15,7 +15,7 @@
 //= require turbolinks
 //= require_tree .
 
-
+//= require src/lluvia
 
 //= require SyntaxHighlighter/Scripts/shCore
 //= require SyntaxHighlighter/Scripts/shBrushJScript

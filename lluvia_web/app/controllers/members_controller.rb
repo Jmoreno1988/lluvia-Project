@@ -1,8 +1,10 @@
 class MembersController < ApplicationController
   before_action :set_member, only: [:show, :edit, :update, :destroy]
-
+  layout 'sinLluvia'
   # GET /members
   # GET /members.json
+      before_filter :authenticate_model!, :except => [:show, :index]  
+
   def index
     @members = Member.all
   end

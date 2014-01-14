@@ -1,8 +1,10 @@
 class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
-
+  layout 'sinLluvia'
   # GET /users
   # GET /users.json
+      before_filter :authenticate_model!, :except => [:show, :index]  
+
   def index
     @users = User.all
   end
